@@ -1,0 +1,27 @@
+{
+  "name": "apiserver",
+  "version": "1.0.0",
+  "description": "a android test api server for retrofit example",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gordon-rawe/RetrofitApiServer.git"
+  },
+  "keywords": [
+    "android",
+    "api",
+    "retrofit"
+  ],
+  "author": "gordon rawe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gordon-rawe/RetrofitApiServer/issues"
+  },
+  "homepage": "https://github.com/gordon-rawe/RetrofitApiServer#readme",
+  "dependencies": {
+    "express": "^4.13.1"
+  }
+}
