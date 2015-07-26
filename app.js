@@ -13,12 +13,12 @@ var data = {beijing:[{name:"changcheng"},{name:"gugong"},{name:"sanlitun"},{name
 
 
 app.get('/cities',function(req,res){
-	res.send(Object.keys(data));
+	res.send({cities:Object.keys(data)});
 });
 
 app.get('/cities/:city_name',function(req,res){
 	var city = req.params.city_name;
-	res.send(data[city]);
+	res.send({places:data[city]});
 });
 
 app.get('/',function(req,res){
